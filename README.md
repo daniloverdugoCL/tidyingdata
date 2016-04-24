@@ -1,19 +1,16 @@
-#README
-##Description Code
+README
+Description Code
 
-##Autor: Danilo Verdugo
-###NOTE: Text translated automatic with GOOGLE TRASLATOR!!  (ORIGINAL SPANISH.)
+Autor: Danilo Verdugo
+NOTE: Text translated automatic with GOOGLE TRASLATOR!!  (ORIGINAL SPANISH.)
 
-
-##HERE:
-##You should create one R script called run_analysis.R that does the following. 
-##1) Merges the training and the test sets to create one data set.
-##2) Extracts only the measurements on the mean and standard deviation for each measurement. 
-##3) Uses descriptive activity names to name the activities in the data set
-##4) Appropriately labels the data set with descriptive variable names. 
-##5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-
-
+HERE:
+You should create one R script called run_analysis.R that does the following. 
+*1) Merges the training and the test sets to create one data set.
+*2) Extracts only the measurements on the mean and standard deviation for each measurement. 
+*3) Uses descriptive activity names to name the activities in the data set
+*4) Appropriately labels the data set with descriptive variable names. 
+*5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 #SET SESSION FOLDER FIST!
 setwd("C:/Users/danilo.verdugo/Dropbox/personal/COURSERA DATA SCIENTIST/curso 3/trabajofinal")
@@ -22,7 +19,7 @@ setwd("C:/Users/danilo.verdugo/Dropbox/personal/COURSERA DATA SCIENTIST/curso 3/
 library(httr) 
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
-##download file
+#download file
 file <- "datos.zip"
 if(!file.exists(file)){
       print("descarga de archivo")
